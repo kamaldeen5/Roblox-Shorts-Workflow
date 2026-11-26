@@ -1,0 +1,178 @@
+{
+  "slug": "every-lie-grows",
+  "title": "In This Town, Every Lie Makes You Grow",
+  "hookBadge": "RULE #1: EVERY LIE = +1 INCH",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "mood": "eerie",
+  "palette": {
+    "skyTop": "#0b1026",
+    "skyBottom": "#1b2748",
+    "fog": "#16203d",
+    "accent": "#ffd43b",
+    "danger": "#ff4d6d",
+    "ground": "#2a3548",
+    "road": "#181c26"
+  },
+  "audio": {
+    "music": "assets/audio/ambient_eerie.wav",
+    "musicVolume": 0.28
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "duration": 3.2,
+      "narration": "In this town, every lie makes you grow one inch.",
+      "emphasis": ["every lie", "one inch"],
+      "camera": {
+        "preset": "wide-town",
+        "fov": 48,
+        "shake": 0.0
+      },
+      "actor": {
+        "name": "Leo",
+        "scale": 1.0,
+        "walkSpeed": 1.4,
+        "shirt": "#2563eb",
+        "pants": "#1e293b",
+        "skin": "#facc15",
+        "mood": "neutral"
+      },
+      "popupText": "HEIGHT: 5'10\"",
+      "sfx": "ding"
+    },
+    {
+      "id": "setup",
+      "duration": 3.3,
+      "narration": "Leo swore he would never tell a single lie.",
+      "emphasis": ["never", "single lie"],
+      "camera": {
+        "preset": "close-up-face",
+        "fov": 44,
+        "shake": 0.0
+      },
+      "actor": {
+        "name": "Leo",
+        "scale": 1.0,
+        "walkSpeed": 0.8,
+        "shirt": "#2563eb",
+        "pants": "#1e293b",
+        "skin": "#facc15",
+        "mood": "confident"
+      },
+      "popupText": "0 LIES TOLD",
+      "sfx": "whoosh"
+    },
+    {
+      "id": "first_lie",
+      "duration": 3.5,
+      "narration": "Then he told his boss he finished the report.",
+      "emphasis": ["told his boss", "finished"],
+      "camera": {
+        "preset": "dramatic-zoom",
+        "fov": 42,
+        "shake": 0.08
+      },
+      "actor": {
+        "name": "Leo",
+        "scale": 1.35,
+        "walkSpeed": 0.2,
+        "shirt": "#2563eb",
+        "pants": "#1e293b",
+        "skin": "#facc15",
+        "mood": "sweating"
+      },
+      "popupText": "+1 INCH (LIE #1)",
+      "sfx": "pop"
+    },
+    {
+      "id": "escalation",
+      "duration": 4.0,
+      "narration": "One tiny lie quickly turned into fifty more.",
+      "emphasis": ["tiny lie", "fifty more"],
+      "camera": {
+        "preset": "low-angle-tower",
+        "fov": 52,
+        "shake": 0.14
+      },
+      "actor": {
+        "name": "Leo",
+        "scale": 2.4,
+        "walkSpeed": 1.8,
+        "shirt": "#2563eb",
+        "pants": "#1e293b",
+        "skin": "#facc15",
+        "mood": "panicked"
+      },
+      "popupText": "HEIGHT: 10'0\" (+50 LIES)",
+      "sfx": "pop"
+    },
+    {
+      "id": "climax",
+      "duration": 4.0,
+      "narration": "By midnight, his head pierced straight through the clouds.",
+      "emphasis": ["midnight", "clouds"],
+      "camera": {
+        "preset": "sky-titan",
+        "fov": 58,
+        "shake": 0.25
+      },
+      "actor": {
+        "name": "Leo",
+        "scale": 4.8,
+        "walkSpeed": 0.4,
+        "shirt": "#2563eb",
+        "pants": "#1e293b",
+        "skin": "#facc15",
+        "mood": "shocked"
+      },
+      "popupText": "HEIGHT: 42'0\" — DANGER",
+      "sfx": "boom"
+    },
+    {
+      "id": "twist",
+      "duration": 3.5,
+      "narration": "Until the mayor whispered: I never liked him anyway.",
+      "emphasis": ["mayor whispered", "never liked"],
+      "camera": {
+        "preset": "mayor-closeup",
+        "fov": 42,
+        "shake": 0.05
+      },
+      "actor": {
+        "name": "Mayor",
+        "scale": 1.0,
+        "walkSpeed": 0.0,
+        "shirt": "#dc2626",
+        "pants": "#111827",
+        "skin": "#fde047",
+        "mood": "smirk"
+      },
+      "popupText": "MAYOR: 0 LIES... UNTIL NOW",
+      "sfx": "whoosh"
+    },
+    {
+      "id": "loop_ending",
+      "duration": 2.5,
+      "narration": "And suddenly, the mayor shot past the moon.",
+      "emphasis": ["mayor", "past the moon"],
+      "camera": {
+        "preset": "rocket-up",
+        "fov": 62,
+        "shake": 0.35
+      },
+      "actor": {
+        "name": "Mayor",
+        "scale": 8.5,
+        "walkSpeed": 0.0,
+        "shirt": "#dc2626",
+        "pants": "#111827",
+        "skin": "#fde047",
+        "mood": "shocked"
+      },
+      "popupText": "LIE DETECTED: +10,000\"",
+      "sfx": "boom"
+    }
+  ]
+}
