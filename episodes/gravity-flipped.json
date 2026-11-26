@@ -1,0 +1,78 @@
+{
+  "slug": "gravity-flipped",
+  "title": "In This World, Gravity Flips Every 10 Seconds",
+  "hookBadge": "RULE #1: GRAVITY FLIPS EVERY 10s",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "mood": "eerie",
+  "palette": {
+    "skyTop": "#0f0720",
+    "skyBottom": "#251447",
+    "fog": "#1f123d",
+    "accent": "#38bdf8",
+    "danger": "#f43f5e",
+    "ground": "#1e293b",
+    "road": "#0f172a"
+  },
+  "audio": {
+    "music": "assets/audio/ambient_eerie.wav",
+    "musicVolume": 0.28
+  },
+  "beats": [
+    {
+      "id": "hook",
+      "duration": 3.2,
+      "narration": "In this world, gravity flips every ten seconds.",
+      "emphasis": ["gravity flips", "ten seconds"],
+      "camera": { "preset": "wide-town", "fov": 48, "shake": 0.0 },
+      "actor": {
+        "name": "Maya",
+        "scale": 1.0,
+        "walkSpeed": 1.6,
+        "shirt": "#ec4899",
+        "pants": "#1e293b",
+        "skin": "#fde047",
+        "mood": "neutral"
+      },
+      "popupText": "GRAVITY TIMER: 00:03",
+      "sfx": "ding"
+    },
+    {
+      "id": "countdown",
+      "duration": 3.3,
+      "narration": "Maya forgot to strap into her rooftop anchor.",
+      "emphasis": ["forgot", "anchor"],
+      "camera": { "preset": "close-up-face", "fov": 44, "shake": 0.06 },
+      "actor": {
+        "name": "Maya",
+        "scale": 1.0,
+        "walkSpeed": 2.2,
+        "shirt": "#ec4899",
+        "pants": "#1e293b",
+        "skin": "#fde047",
+        "mood": "panicked"
+      },
+      "popupText": "GRAVITY TIMER: 00:01",
+      "sfx": "whoosh"
+    },
+    {
+      "id": "flip",
+      "duration": 4.0,
+      "narration": "At zero, the whole street fell straight into the sky.",
+      "emphasis": ["zero", "into the sky"],
+      "camera": { "preset": "rocket-up", "fov": 60, "shake": 0.28 },
+      "actor": {
+        "name": "Maya",
+        "scale": 1.15,
+        "walkSpeed": 0.0,
+        "shirt": "#ec4899",
+        "pants": "#1e293b",
+        "skin": "#fde047",
+        "mood": "shocked"
+      },
+      "popupText": "GRAVITY INVERTED!",
+      "sfx": "boom"
+    }
+  ]
+}
