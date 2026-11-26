@@ -1,0 +1,24 @@
+{
+  "name": "roblox-shorts-remotion",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "studio": "npx remotion studio",
+    "render": "npx remotion render src/index.ts RobloxShort out/remotion-short.mp4",
+    "still": "npx remotion still src/index.ts RobloxShort out/preview.png --frame=90"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.547",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "^4.0.547",
+    "roblox-shorts-studio": "file:..",
+    "three": "^0.174.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/three": "^0.174.0",
+    "typescript": "^5.7.2"
+  }
+}
