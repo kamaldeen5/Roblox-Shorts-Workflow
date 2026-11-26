@@ -1,0 +1,30 @@
+{
+  "name": "roblox-shorts-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Reliable dual Remotion + HyperFrames workflow for viral Roblox 'In This Town / In This World' 9:16 Shorts",
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "doctor": "node scripts/doctor.mjs",
+    "sfx": "node scripts/generate-sfx.mjs",
+    "sfx:generate": "node scripts/generate-sfx.mjs",
+    "tts": "node scripts/generate-tts.mjs",
+    "build": "node scripts/build-episode.mjs",
+    "episode:build": "node scripts/build-episode.mjs",
+    "hf:lint": "npm --prefix hyperframes-project run lint",
+    "hf:check": "npm --prefix hyperframes-project run check",
+    "hf:snapshot": "npm --prefix hyperframes-project run snapshot",
+    "hf:preview": "npm --prefix hyperframes-project run preview",
+    "hf:render": "npm --prefix hyperframes-project run render",
+    "remotion:studio": "npm --prefix remotion-studio run studio",
+    "remotion:render": "npm --prefix remotion-studio run render",
+    "verify": "node scripts/verify-pipeline.mjs"
+  },
+  "dependencies": {
+    "msedge-tts": "^2.1.1"
+  },
+  "devDependencies": {
+    "isomorphic-git": "^1.44.19"
+  }
+}
