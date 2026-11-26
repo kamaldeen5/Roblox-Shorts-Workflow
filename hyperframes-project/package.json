@@ -1,0 +1,22 @@
+{
+  "name": "roblox-shorts-hyperframes",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "npx hyperframes lint",
+    "check": "npx hyperframes check --json",
+    "snapshot": "npx hyperframes snapshot --at 0.5,3.5,8.0,15.5,22.5",
+    "preview": "npx hyperframes preview",
+    "render": "npx hyperframes render --quality looks --output renders/latest.mp4",
+    "render:draft": "npx hyperframes render --quality draft --output renders/draft.mp4",
+    "render:delivery": "npx hyperframes render --quality delivery --output renders/delivery.mp4"
+  },
+  "dependencies": {
+    "ffmpeg-static": "^5.3.0",
+    "gsap": "^3.14.2",
+    "hyperframes": "^0.9.98",
+    "roblox-shorts-studio": "file:..",
+    "three": "^0.174.0"
+  }
+}
